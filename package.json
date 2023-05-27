@@ -1,0 +1,17 @@
+{
+  "name": "es6-porting",
+  "version": "0.0.0",
+  "description": "Attempt to porting vanilla projects in modern js6",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "javascript",
+    "tailwind",
+    "axios"
+  ],
+  "author": "double.facessss@gmail.com",
+  "license": "ISC"
+}
