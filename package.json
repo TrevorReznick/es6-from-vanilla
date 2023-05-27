@@ -4,7 +4,10 @@
   "description": "Attempt to porting vanilla projects in modern js6",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx webpack-dev-server",
+    "clean": "npx rimraf dist/",
+    "build": "npm run clean && npx cross-env NODE_ENV=production npx webpack-cli",
+    "build:dev": "npm run clean && npx cross-env NODE_ENV=development npx webpack-cli"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
