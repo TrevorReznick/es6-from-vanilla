@@ -48,6 +48,11 @@ const config = {
         }),
         new HtmlWebpackPlugin({
             template: 'src/index.html',
+            filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: 'src/views/forms.html',
+            filename: 'views/forms.html'
         }),
         new CopyPlugin({
             patterns: [{ from: 'src/static', to: 'static' }],

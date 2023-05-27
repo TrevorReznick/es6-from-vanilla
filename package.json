@@ -33,5 +33,9 @@
     "axios"
   ],
   "author": "double.facessss@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^9.6.7"
+  }
 }
